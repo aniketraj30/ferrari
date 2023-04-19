@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>FERRARIvolution - Interactive Museum of Ferrari</title>
+      <link rel="icon" type="image/x-icon" href="icons8-ferrari-48.png">
+
+      <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <link rel="stylesheet" type="text/css" href="reset-min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+   </head>
+   <body class="noscroll">
+      <div class="rotate">
+         <img src="icons8-rotate-right-32.png" alt="Rotate your device">
+         <p>Rotate your device</p> 
+      </div>   
+
+      <div id="topbar">
+         <a href="#" title="FERRARIvolution">   
+            <div id="logo" class="wrapper">
+               <div class="new-logo"><span>FERRARI</span>volution</div>
+            </div>
+         </a>
+      </div>
+      <ul class="navigation">
+         <li data-slide="0" style="display:none"></li>
+         <li data-slide="1">Intro</li>
+         <li data-slide="2">1960<span>s</span></li>
+         <li data-slide="3">1972<span>s</span></li>
+         <li data-slide="4">1982<span>s</span></li>
+         <li data-slide="5">1992<span>s</span></li>
+         <li data-slide="6">2002<span>s</span></li>
+         <li data-slide="7">2012<span>s</span></li>
+         <li data-slide="8">2022<span>s</span></li>
+         <li data-slide="11" class="nb">2023<span>s</span></li>
+         <li data-slide="12" class="noborder"></li>
+      </ul>
+      <div id="mute">
+         <div></div>
+          <span class="tooltiptext"><div class="arrow-left"></div>Turning off music kills a half of the experience ;)</span>
+      </div>
+     
+      <div class="slide" id="slide0" data-slide="0"  >
+         <div class="wrapper">
+            <div class="new-logo"><span>FERRARI</span>volution</div>
+            <span class="volume">Turn up the volume to enjoy full experience</span>
+
+            <div class="landingpage-interaction">
+                   <a class="button0 disabled" data-slide="1" title="START ENGINE">
+                     <input id="round" class="disabled" type="submit" value="LOADING..." />
+                  </a>
+               </div>
+            
+            <audio id="start" class="active">
+               <source src="audio/Engineogg.ogg" type="audio/ogg">
+               <source src="audio/Engine.mp3" type="audio/mpeg">
+            </audio>
+         </div>
+      </div>
+      <section class="slide" id="slide1" data-slide="1">
+         <div class="wrapper">
+            <div class="year">
+               <div class="year-inner">Enzo Ferrari</div>
+               <hr>
+               <div class="year-desc">
+                  There is no triumph or glory in the world that's worth an inch of Human skin.
+               </div>
+            </div>
+         </div>
+         <audio id="1920s" >
+            <source src="audio/introogg.ogg" type="audio/ogg">
+            <source src="audio/intro.mp3" type="audio/mpeg">
+         </audio>
+         <a class="button" data-slide="2" title style="display: inline;"></a>
+      </section>
+      <section class="slide" id="slide2" data-slide="2"  >
+         <div class="year">
+            <div class="year-inner dark">1960<span>s</span></div>
+            <hr class="dark-line">
+            <div class="year-desc dark">
+               <span>Ferrari 246 P F1:</span> 
+               Was a formula one car prototype used by Ferrari in 1960.<br>It was Ferrari's first-mid engined car.
+            </div>
+         </div>
+         <audio id="1960s" >
+            <source src="audio/19600gg.ogg" type="audio/ogg">
+            <source src="audio/1960.mp3" type="audio/mpeg">
+         </audio>
+         <a class="button" data-slide="3" title=""></a>
+      </section>
+      <section class="slide" id="slide3" data-slide="3" >
+         <div class="year">
+            <div class="year-inner">1972<span>s</span></div>
+            <hr>
+            <div class="year-desc">
+               <span>Ferrari 312 B2:</span> 
+              Debuted in Monaco in may. <br>The B2 was a completely different car, The nose cone was low, The rear suspension had redesigned.
+            </div>
+         </div>
+         <audio id="1972s" >
+            <source src="audio/1972ogg.ogg" type="audio/ogg">
+            <source src="audio/1972.mp3" type="audio/mpeg">
+         </audio>
+         <a class="button" data-slide="4" title=""></a>
+      </section>
+      <section class="slide" id="slide4" data-slide="4" >
+         <div class="year">
+            <div class="year-inner dark">1982<span>s</span></div>
+            <hr class="dark-line">
+            <div class="year-desc dark">
+               <span>Ferrari 126C:</span>
+               The car which ferrari reced in 1982 Formula one season. <br>Turbocharged Formula 1 car, deisgned by Mauro Forghieri.
+            </div>
+         </div>
+         <audio id="1982s" >
+            <source src="audio/19820gg.ogg" type="audio/ogg">
+            <source src="audio/1982.mp3" type="audio/mpeg">
+         </audio>
+         <a class="button" data-slide="5" title=""></a>
+      </section>
+      <section class="slide" id="slide5" data-slide="5" >
+         <div class="year year-shadow">
+            <div class="year-inner">1992<span>s</span></div>
+            <hr>
+            <div class="year-desc">
+               <span>Ferrari F92A:</span>
+               was a Formula one car designed by Jean-Claude Migeot.<br> For use in the 1992 Formula 1 season. 
+            </div>
+         </div>
+         <audio id="1992s" >
+            <source src="audio/1992ogg.ogg" type="audio/ogg">
+            <source src="audio/1992.mp3" type="audio/mpeg">
+         </audio>
+         <a class="button" data-slide="6" title=""></a>
+      </section>
+      <section class="slide" id="slide6" data-slide="6" >
+         <div class="year">
+            <div class="year-inner">2002<span>s</span></div>
+            <hr>
+            <div class="year-desc">
+               <span>Ferrari F2002 :</span> 
+               Was one of the most successful Formula one car deisgn.<br> It won sixteen Grands prix, from a total of twenty races.
+            </div>
+         </div>
+         <audio id="2002s" >
+            <source src="audio/20020gg.ogg" type="audio/ogg">
+            <source src="audio/2002.mp3" type="audio/mpeg">
+         </audio>
+         <a class="button" data-slide="7" title=""></a>
+      </section>
+      <section class="slide" id="slide7" data-slide="7" >
+         <div class="year dark">
+            <div class="year-inner dark">2012<span>s</span></div>
+            <hr class="dark-line">
+            <div class="year-desc dark">
+               <span>Ferrari F2012:</span>
+               The car was launched on 3 February at Ferrari Facility Maranello. <br> designed by Pat Fry, Nikolas Hennel with Luca Marmorini.
+            </div>
+         </div>
+         <audio id="2012s" >
+            <source src="audio/2012ogg.ogg" type="audio/ogg">
+            <source src="audio/2012.mp3" type="audio/mpeg">
+         </audio>
+         <a class="button" data-slide="8" title=""></a>
+      </section>
+      <section class="slide" id="slide8" data-slide="8" >
+         <div class="year">
+            <div class="year-inner">2022<span>s</span></div>
+            <hr>
+            <div class="year-desc">
+               <span>Ferrari F1-75:</span>
+               The car was driven by Charles Leclerc and Carlos Sainz Jr.<br> Designed under the 2022 FIA Technical Regulations.
+            </div>
+         </div>
+         <audio id="2022s" >
+            <source src="audio/2022ogg.ogg" type="audio/ogg">
+            <source src="audio/2022.mp3" type="audio/mpeg">
+         </audio>
+         <a class="button" data-slide="9" title=""></a>
+      </section>
+      <section class="slide" id="slide11" data-slide="11" >
+         <div class="year">
+            <div class="year-inner">2023<span>s</span></div>
+            <hr>
+            <div class="year-desc">
+               <span>Ferrari SF-23.</span> <br> 
+               Tradizione Futuro.<br>  14 February 2023.<br> <br> 
+            </div>
+         </div>
+         <audio id="2023s" >
+            <source src="audio/2023ogg.ogg" type="audio/ogg">
+            <source src="audio/2023.mp3" type="audio/mpeg">
+         </audio>
+         <a class="button" data-slide="12" title=""></a>
+      </section>
+      <section class="slide" id="slide12" data-slide="12" >
+         <div id="about1">
+            <div class="wrapper">
+               <div class="about-text">
+                  <div class="weblink">
+                     <span>Created by:</span><br><a ">Aniket Raj</a>
+
+
+
+
+
+
+
+                     <div class="row social" align="center">
+
+                        <a target = "blank" href='https://twitter.com/rjaniket30' ><i class="fab fa-twitter"></i></a>
+                       
+                        <a target = "blank" href='https://www.instagram.com/codingcommanders'><i class='fab fa-instagram'></i></a>
+                        <a target="blank" href="https://github.com/aniketraj30"><i class="fab fa-github"></i></a>
+                        <a target="blank" href="https://discord.com/channels/@me"> <i class="fab fa-discord"></i></a>
+                      </div>
+
+                     
+            </div>
+         </div>
+      </section>
+     
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+      <script src="js/jpreloader.min.js"></script>
+       <script type="text/javascript">
+         $(document).ready(function() {
+            $('body').jpreLoader();
+         });
+      </script>
+      <script type="text/javascript" src="mobile.js"></script>
+      <script type="text/javascript" src="js.js"></script>
+      <script type="text/javascript" src="evolution.js"></script>
+      <script type="text/javascript" src="jquery.stellar.min.js"></script>
+      <script type="text/javascript" src="waypoints.min.js"></script>
+      <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+      <script type="text/javascript" src="jpreloader.min.js"></script>
+
+
+      
+   </body>
+</html>
